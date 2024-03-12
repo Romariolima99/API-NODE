@@ -13,6 +13,6 @@ function GerarDados(req, res) {
     });
 }
 
-app.get('/dados', GerarDados);
+app.get('/.api-node-romario-lima.netlify.app/api', GerarDados);
 
 app.listen(3333, () => console.log('executando'));
